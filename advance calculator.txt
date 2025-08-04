@@ -1,0 +1,36 @@
+import math
+print("select an operation to perform: 1 _ 6")
+print("1. ADD")
+print("2. SUBTRACT")
+print("3. MULTIPLY")
+print("4. DIVIDE")
+print("5. SQUARE ROOT")
+print("6. power")
+
+operation = input(0)
+
+if operation == "1": # Performs ADDITION
+    num1 = input("Enter First number: ")
+    num2 = input("Enter Second number: ")
+    print = print("the sum is " + str(int(num1) + int(num2)))
+elif operation == "2": # Performs SUBTRACTION
+    num1 = input("Enter First number: ")
+    num2 = input("Enter Second number: ")
+    print = print("the difference is " + str(int(num1) - int(num2)))
+elif operation == "3": # Performs MUYLTIPLICATION
+    num1 = input("Enter First number: ")
+    num2 = input("Enter Second number: ")
+    print = print("the product is " + str(int(num1) * int(num2)))
+elif operation == "4": # Performs DIVISION
+    num1 = input("Enter First number: ")
+    num2 = input("Enter Second number: ")
+    print = print("the result is " + str(int(num1) / int(num2)))
+elif operation == "5": # Performs SQUARE ROOT OPERATION
+    num = int(input("Enter  number: "))
+    print = print("the square root is %f " %(math.sqrt(num)))
+elif operation == "6": # Performs POWER OPERATION
+    num = int(input("Enter number: "))
+    print = print("the result is %d"  %(pow(num, 2)))
+else :
+    print("Invalid Entry")
+        
